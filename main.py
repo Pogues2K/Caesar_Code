@@ -32,6 +32,6 @@ while not should_continue:
     caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
 
     restart = input("Do you want to restart? Y/N: ").lower()
-    if restart == "no":
+    if restart == "n":
         should_continue = True
         print("See ya")
